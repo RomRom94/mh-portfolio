@@ -1,0 +1,393 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ li{
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .home{
+     height: 100vh;
+ }
+
+ .menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 70px;
+ }
+
+ .menu__container_icone{
+ 
+     width: 20%;
+ }
+
+ .menu__container_icone img{
+     padding: 20px;
+     transition: all 0.5s ease-out;
+ }
+
+ .menu__container_icone img:hover{
+    transform: rotate(20deg);
+}
+
+ .menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #D8D3D3;
+    padding: 30px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+
+.menu ul li a:hover{
+    padding: 30px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    color: #CEAD28;
+
+    
+}
+
+.onepage{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: calc(100vh - 70px +52px);
+
+}
+
+.onepage__container-left{
+width: 50%;
+text-align: center;
+}
+
+.onepage__container-left__container-text{
+width: 100%;
+}
+
+.onepage__container-left__container-text h1{
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.onepage__container-left__container-text h2{
+    font-family:'Yu Gothic';
+    font-weight: lighter;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.onepage__container-left__container-button{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.onepage__container-left__container-button a{
+    width: 187px;
+    height: 69px;
+    color:#CEAD28 ;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: solid 3px #CEAD28;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 0.5s ease-out;
+ 
+}
+
+.onepage__container-left__container-button a:hover{
+  color: white;
+  background-color: #CEAD28;
+}
+
+.onepage__container-right{
+    width: 50%;
+    flex: 1;
+}
+
+.onepage__container-right img{
+    width: 80%;
+}
+
+.footer{
+  height: 52px; 
+  background-color: #CEAD28; 
+}
+
+.footer h3{
+    font-family:'Yu Gothic';
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 21px;
+    padding-left: 45px;
+
+}
+
+
+
+.categories__container-icone{
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.categories__container-icone img{
+    margin-left: 300px ;
+    margin-right: 300px;
+
+}
+
+.categories__container-button{
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 20px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.categories__container-button a{
+        font-family: 'Yu Gothic';
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        border: solid 3px #CCCCCC;
+        border-radius: 5px;
+        padding: 20px;
+        color: #CCCCCC;
+        margin-right: 231px;
+        margin-left: 151px;
+        transition: all 0.5s ease-out;
+}
+
+.categories__container-button a:hover{
+background-color: #4E4E4E;
+border: none;
+}
+
+
+
+.a-propos{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+
+}
+
+.a-propos__container-left{
+    width: 33%;
+    border-right: solid 4px #CEAD28;
+    height: 909px;
+}
+
+.a-propos__container-left h1{
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.a-propos__container-left p{
+    font-family: 'Yu Gothic';
+    font-size: 19px;
+    margin-left: 40px;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 80%;
+    
+}
+
+.a-propos__container-middle{
+    width: 33%;
+    border-right: solid 4px #CEAD28;
+
+}
+
+.a-propos__container-middle h1{
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.a-propos__container-middle p{
+    font-family: 'Yu Gothic';
+    font-size: 19px;
+    margin-left: 40px;
+    margin-top: 50px;
+    line-height: 25px;
+    width: 80%;
+}
+
+.a-propos__container-right{
+    width: 33%;
+    height: 909px;
+}
+
+.a-propos__container-right h1{
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+
+.a-propos__container-right__container-competences{
+
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.a-propos__container-right__container-competences__img{
+width: 100%;
+height: 130px;
+}
+
+.a-propos__container-right__container-competences__img h2{
+    font-family: 'Yu Gothic';
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.home_book{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.book-container{
+    width: 56%;
+}
+
+.book-container__texte{
+    width: 60%;
+    margin: auto;
+}
+
+.book-container__texte h1{
+    font-family: 'Yu Gothic';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+.book-container__texte p{
+    width: 80%;
+    font-family: 'Yu Gothic';
+    font-size: 20px;
+margin-top: 20px;
+}
+
+.book-container__button{
+    width: 90%;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.book-container__button a{
+    width: 358px;
+    height: 95px;
+    color:#CEAD28 ;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: solid 3px #CEAD28;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+    margin: 20px;
+
+}
+
+.book-container__button a:hover{
+background-color: #CEAD28;
+    color:#FFFFFF ;
+}
+

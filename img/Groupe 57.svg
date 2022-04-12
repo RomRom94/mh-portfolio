@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="346" height="115" viewBox="0 0 346 115">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        fill: url(#pattern-2);
+      }
+
+      .cls-3 {
+        fill: url(#pattern-3);
+      }
+
+      .cls-4 {
+        font-size: 12px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 957 960">
+      <image width="957" height="960" xlink:href="C:/a%20trier/ECOLE%202021/TRAVAUX/LOGO/adobe-xd.png"/>
+    </pattern>
+    <pattern id="pattern-2" width="1" height="1" viewBox="7.155 7.155 78.691 78.691">
+      <image preserveAspectRatio="xMidYMid slice" width="93" height="93" xlink:href="C:/a%20trier/ECOLE%202021/TRAVAUX/LOGO/adobe-premiere-pro-cc.jpg"/>
+    </pattern>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 220 215">
+      <image width="220" height="215" xlink:href="C:/a%20trier/ECOLE%202021/TRAVAUX/LOGO/gjhghjgjh.png"/>
+    </pattern>
+  </defs>
+  <g id="Groupe_57" data-name="Groupe 57" transform="translate(-1452 -382)">
+    <rect id="adobe-xd" class="cls-1" width="93" height="93" transform="translate(1461 382)"/>
+    <rect id="adobe-premiere-pro-cc" class="cls-2" width="93" height="93" transform="translate(1579 382)"/>
+    <rect id="gjhghjgjh" class="cls-3" width="93" height="93" transform="translate(1697 382)"/>
+    <text id="adobe_xd" data-name="adobe xd" class="cls-4" transform="translate(1452 483)"><tspan x="-31.008" y="11">ADOBE XD</tspan></text>
+    <text id="première_pro" data-name="première pro" class="cls-4" transform="translate(1574 483)"><tspan x="-46.008" y="11">PREMIÈRE PRO</tspan></text>
+    <text id="after_effect" data-name="after effect" class="cls-4" transform="translate(1696 483)"><tspan x="-44.666" y="11">AFTER EFFECT</tspan></text>
+  </g>
+</svg>

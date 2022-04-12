@@ -1,0 +1,206 @@
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ li{
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ 
+ .menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    width: 100%;
+ }
+
+ .menu__container_icone{
+ 
+     width: 20%;
+ }
+
+ .menu__container_icone img{
+     padding: 20px;
+     transition: all 0.5s ease-out;
+ }
+
+ .menu__container_icone img:hover{
+    transform: rotate(20deg);
+}
+
+ .menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #D8D3D3;
+    padding: 30px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    transition: all 0.5s ease-out;
+}
+
+.menu ul li a:hover{
+    padding: 30px;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    color: #CEAD28;
+
+    
+}
+
+.footer{
+    height: 52px; 
+    background-color: #CEAD28; 
+  }
+  
+  .footer h3{
+      font-family:'Yu Gothic';
+      color: #FFFFFF;
+      font-size: 20px;
+      padding-top: 21px;
+      padding-left: 45px;
+  
+  }
+  
+
+  .realisation-graphique{
+      display: flex;
+      flex-direction: row; 
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+  }
+
+  .realisation-graphique__container{
+      width: 50%;
+      display: flex;
+  }
+
+  .realisation-graphique__container__image{
+      width: 49%;
+  }
+  
+  .realisation-graphique__container__image img{
+    width: 100%;
+}
+
+  .realisation-graphique__container__texte{
+      width: 51%;
+      background-color: #F6F6F6;
+  }
+
+  .realisation-graphique__container__texte h1{
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.realisation-graphique__container__texte h2{
+    font-family:'Yu Gothic';
+    font-weight: lighter;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    letter-spacing: 5px;
+    
+}
+
+.realisation-graphique__container__texte p{
+    width: 90%;
+    font-family:'Yu Gothic';
+    color: #000000;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.realisation-graphique__container__texte p span{
+    font-weight: bold;
+}
+
+.realisation-graphique__container__texte a{
+    width: 186px;
+    height: 39px;
+    background-color: #232323;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 9px;
+    padding-left: 41px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    margin: auto;
+    margin-top: 42px;
+    color: #FFFFFF;
+    transition: all 0.5s ease-out;
+    
+}
+
+.realisation-graphique__container__texte a:hover{
+    background-color: #FFFFFF;
+    color: #4D4D4D;  
+    border: solid 1px #4D4D4D;
+}
