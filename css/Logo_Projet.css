@@ -1,57 +1,4 @@
-tml, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
- li{
-     list-style: none;
- }
-
- a {
-     text-decoration: none;
- }
-
- 
- .menu{
+.menu{
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
@@ -60,23 +7,23 @@ table {
     flex-wrap: wrap;
     background-color: #F6F6F6;
     width: 100%;
- }
+}
 
- .menu__container_icone{
- 
-     width: 20%;
- }
+.menu__container_icone{
+    
+    width: 20%;
+}
 
- .menu__container_icone img{
-     padding: 20px;
-     transition: all 0.5s ease-out;
- }
+.menu__container_icone img{
+    padding: 20px;
+    transition: all 0.5s ease-out;
+}
 
- .menu__container_icone img:hover{
+.menu__container_icone img:hover{
     transform: rotate(20deg);
 }
 
- .menu ul li{
+.menu ul li{
     display: inline-block;
 }
 
@@ -97,38 +44,38 @@ table {
     font-family:'Yu Gothic';
     font-weight: bold;
     color: #CEAD28;
-
+    
     
 }
 
 .footer{
     height: 52px; 
     background-color: #CEAD28; 
-  }
-  
-  .footer h3{
-      font-family:'Yu Gothic';
-      color: #FFFFFF;
-      font-size: 20px;
-      padding-top: 21px;
-      padding-left: 45px;
-  
-  }
+}
 
-  .projet-logo{
-      width: 100%;
+.footer h3{
+    font-family:'Yu Gothic';
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 21px;
+    padding-left: 45px;
+    
+}
 
-      margin-top: 20px;
-  }
-  
-  .projet-logo__container{
-      width: 95%;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: center;
-      flex-wrap: wrap;
-      margin: auto;
+.projet-logo{
+    width: 100%;
+    
+    margin-top: 20px;
+}
+
+.projet-logo__container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .projet-logo__container__top{
@@ -162,15 +109,15 @@ table {
 
 
 .projet-logo__container__bottom{
-
+    
     width: 100%;
     display: flex;
     justify-content: space-between;
-      flex-direction: row;
-      align-items: center;
-      flex-wrap: wrap;
-      margin: auto;
-
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
 }
 
 .projet-logo__container__bottom__logo-principal{
@@ -192,7 +139,7 @@ table {
     text-align: center;
     width: 90%;
     margin: auto;
-
+    
 }
 
 .projet-logo__container__bottom__logo-type{
@@ -215,8 +162,8 @@ table {
 }
 
 .projet-logo__container__bottom__logo-alternatifs{
-width: 33.33%;
-text-align: center;
+    width: 33.33%;
+    text-align: center;
 }
 
 .projet-logo__container__bottom__logo-alternatifs img{
@@ -230,4 +177,4 @@ text-align: center;
     text-transform: uppercase;
     font-size: 36px;
     text-align: center;
-    }
+}
