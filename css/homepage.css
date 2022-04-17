@@ -1,0 +1,122 @@
+
+.home {
+    height: 100vh;
+}
+
+.home .page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-home-top {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 70px + 100px + 52px);
+}
+
+.home-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-top__left{
+    text-align: center;
+}
+
+.home-top__right {
+    flex: 1;
+}
+
+.home-top__right img {
+    display: block;
+    max-height: 365px;
+    margin: 0 auto;
+    aspect-ratio: 365/335;
+}
+
+.home-top__text-container{
+    margin-bottom: 80px;
+}
+
+.home-top__text-container h1{
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.home-top__text-container h2{
+    font-family:'Yu Gothic';
+    font-weight: lighter;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.home-top__links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-top__links-container a {
+    display: block;
+    width: 197px;
+    height: 75px;
+    margin: 0 30px;
+    color:#CEAD28 ;
+    font-family:'Yu Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: solid 2px #CEAD28;
+    line-height: 75px;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    
+}
+
+.home-top__links-container a:hover{
+    color: white;
+    background-color: #CEAD28;
+}
+
+.section-categories-buttons{
+    margin-top: auto;
+    background-color: #F6F6F6;
+}
+
+.categories-buttons__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.categories-buttons__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-buttons__list li:nth-child(2){
+    margin: 0 50px;
+}
+
+.categories-buttons__list a{
+    display: inline-block;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: solid 2px #CCCCCC;
+    border-radius: 5px;
+    padding: 20px 30px;
+    color: #CCCCCC;
+    transition: all 0.5s ease-out;
+}
+
+.categories-buttons__list a:hover{
+    background-color: #4E4E4E;
+    border: solid 2px #4E4E4E;
+}

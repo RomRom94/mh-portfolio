@@ -50,18 +50,3 @@
 .isometric-infos{
     width: 33.33%;
 }
-
-.footer{
-    height: 52px; 
-    background-color: #CEAD28; 
-  }
-
-
-  .footer h3 {
-      font-family:'Yu Gothic';
-      color: #FFFFFF;
-      font-size: 20px;
-      padding-top: 21px;
-      padding-left: 45px;
-  
-  }
