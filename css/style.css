@@ -137,7 +137,14 @@
     
 }
 
+.section-categories-button {
+    background-color: #F6F6F6;
+}
 
+.categories-buttons__list {
+    display: flex;
+    align-items: center;
+}
 
 .categories__container-icone{
     width: 100%;
@@ -153,15 +160,12 @@
 }
 
 .categories__container-button{
-    width: 100%;
-    background-color: #F6F6F6;
-    height: 20px;
-    padding: 50px;
     margin: auto;
     text-align: center;
 }
 
 .categories__container-button a{
+    display: inline-block;
     font-family: 'Yu Gothic';
     font-weight: bold;
     font-size: 20px;
@@ -170,8 +174,6 @@
     border-radius: 5px;
     padding: 20px;
     color: #CCCCCC;
-    margin-right: 231px;
-    margin-left: 151px;
     transition: all 0.5s ease-out;
 }
 
