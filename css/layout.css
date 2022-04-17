@@ -21,7 +21,7 @@ body {
 .page-container {
   flex-grow: 1;
   width: 100%;
-  max-width: 1920px;
+  /* max-width: 1965px; */
   margin: 0 auto;
   padding: 0;
 }
@@ -38,8 +38,9 @@ body {
 .section-container {
   position: relative;
   width: 100%;
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
   padding: 0;
   background-color: transparent;
 }
+

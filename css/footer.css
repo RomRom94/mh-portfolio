@@ -1,0 +1,15 @@
+.section-wrapper .section-footer{
+    background-color: #CEAD28; 
+    }
+    .footer{
+        height: 52px; 
+    }
+    
+    .footer h3{
+        font-family:'Yu Gothic';
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-top: 21px;
+        padding-left: 45px;
+        
+    }
