@@ -44,3 +44,33 @@ body {
   background-color: transparent;
 }
 
+.section-return-button {
+  text-align: right;
+}
+
+.return-button {
+  position: relative;
+  display: inline-flex;
+  font-size: 20px;
+  line-height: 38px;
+  text-transform: uppercase;
+  padding-left: 35px;
+}
+
+.return-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 22px;
+  height: 22px;
+  background: url('../img/icone/Icon-back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.4s ease;
+}
+
+.return-button:hover::before {
+  transform: translate(-10px, -50%);
+}
