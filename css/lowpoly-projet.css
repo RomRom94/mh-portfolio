@@ -36,5 +36,15 @@
 
 .lowpoly-section__image{
     width: 100%;
+    display: flex;
     text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lowpoly-section__image img{
+    display: block;
+    max-height: 950px;
+    margin: 0 auto;
+    aspect-ratio: 644/642;
 }

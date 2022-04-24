@@ -1,5 +1,5 @@
 
-.home {
+.full-size-screen-height {
     height: 100vh;
 }
 
@@ -30,9 +30,9 @@
 
 .home-top__right img {
     display: block;
-    max-height: 365px;
+    max-height: 950px;
     margin: 0 auto;
-    aspect-ratio: 365/335;
+    aspect-ratio: 958/335;
 }
 
 .home-top__text-container{
