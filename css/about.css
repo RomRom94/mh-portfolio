@@ -1,0 +1,57 @@
+.a-propos {
+    display: flex;
+    padding-top: 20px;
+}
+
+.a-propos__column {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+.a-propos__column:not(:last-of-type) {
+    border-right: solid 2px #CEAD28;
+}
+
+.a-propos__title {
+    margin-bottom: 30px;
+    font-family: 'Yu Gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.a-propos__column p {
+    font-family: 'Yu Gothic';
+    font-size: 19px;
+    line-height: 25px;    
+}
+
+.a-propos__column p:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.a-propos-competences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-propos-competences:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.a-propos-competences__item {
+    width: 93px;
+    text-align: center;
+}
+
+.a-propos-competences__item:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.a-propos-competences__title {
+    font-family: 'Yu Gothic';
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
