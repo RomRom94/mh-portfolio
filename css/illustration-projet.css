@@ -26,7 +26,6 @@
 
 .illustration-section__image-container{
         width: 95%;
-        margin-top: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -34,6 +33,13 @@
         align-content: space-around;
         flex-wrap: wrap;
         text-align: center;
+}
+
+.illustration-section__image-container img{
+    display: block;
+    max-height: 950px;
+    margin: 0 auto;
+    aspect-ratio: 443/590;
 }
 
 .illustration-img{
@@ -45,4 +51,11 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 36px;
+}
+
+.illustration-img img{
+    display: block;
+    max-height: 950px;
+    margin: 0 auto;
+    aspect-ratio: 644/642;
 }
