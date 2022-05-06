@@ -2,6 +2,13 @@
 .page-wrapper-home {
     height: 100vh;
 }
+
+@media screen and (max-width: 1024px) {
+    .page-wrapper-home {
+        height: inherit;
+    }
+}
+
 .page-wrapper-home .page-container {
     position: relative;
     display: flex;
@@ -16,8 +23,14 @@
 
 .home-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-top {
+        flex-direction: column-reverse;
+    }
 }
 
 .home-top__left{
@@ -46,11 +59,26 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+    .home-top__text-container h1{
+        font-size: 34px;
+    }
+}
+
 .home-top__text-container h2{
     font-family:'Yu Gothic';
     font-weight: lighter;
     font-size: 40px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .home-top__text-container h2{
+        font-family:'Yu Gothic';
+        font-weight: lighter;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
 }
 
 .home-top__links-container {
@@ -73,7 +101,16 @@
     line-height: 75px;
     border-radius: 5px;
     transition: all 0.5s ease-out;
-    
+}
+
+@media screen and (max-width: 767px) {
+    .home-top__links-container a {
+        width: 130px;
+        height: 50px;
+        margin: 0 15px;
+        font-size: 16px;
+        line-height: 50px;
+    }
 }
 
 .home-top__links-container a:hover{
@@ -89,6 +126,16 @@
     background-color: #F6F6F6;
 }
 
+@media screen and (max-width: 1024px) {
+    .section-categories-buttons{
+        position: relative;
+        bottom: inherit;
+        left: inherit;
+        transform: inherit;
+        margin-top: auto;
+    }
+}
+
 .categories-buttons__container {
     display: flex;
     align-items: center;
@@ -102,8 +149,20 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+    .categories-buttons__list {
+        flex-direction: column;
+    }
+}
+
 .categories-buttons__list li:nth-child(2){
     margin: 0 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .categories-buttons__list li:nth-child(2){
+        margin: 15px 0px;
+    } 
 }
 
 .categories-buttons__list a{
@@ -117,6 +176,13 @@
     padding: 20px 30px;
     color: #CCCCCC;
     transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 1024px) {
+    .categories-buttons__list a{
+        font-size: 16px;
+        padding: 10px 14px;
+    }
 }
 
 .categories-buttons__list a:hover{
