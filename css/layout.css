@@ -46,6 +46,7 @@ body {
 
 .section-return-button {
   text-align: right;
+  width: 64%;
 }
 
 .return-button {
@@ -55,6 +56,8 @@ body {
   line-height: 38px;
   text-transform: uppercase;
   padding-left: 35px;
+  color: #000000;
+  margin-top: 45px;
 }
 
 .return-button::before {
