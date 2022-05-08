@@ -1,36 +1,63 @@
+.page-wrapper-realisation-graphiques .page-container {
+    padding: 20px 0;
+}
+
 .realisation-graphique {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
 }
 
 .realisation-graphique__container {
     display: flex;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    max-width: 626px;
+    width: calc(100% / 2 - 5px);
+    margin-bottom: 18px;
+}
+
+@media screen and (max-width: 1850px) {
+    .realisation-graphique__container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .realisation-graphique__container {
+        width: 100%;
+    }
+}
+
+.realisation-graphique__container:nth-last-child(-n+2) {
+    margin-bottom: 0;
 }
 
 .realisation-graphique__container__image {
-    width: 50%;
+    width: 57%;
+}
+
+@media screen and (max-width: 1850px) {
+    .realisation-graphique__container__image {
+        width: 100%;
+    }
 }
 
 .realisation-graphique__container__image img {
-    margin: 0 auto;
     display: block;
-    width: 312px;
-    height: 245px;
+    width: 100%;
+    aspect-ratio: 520/294;
 }
 
 .realisation-graphique__container__texte {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    padding: 15px;
     background-color: #F6F6F6;
-    width: 50%;
+}
+
+@media screen and (max-width: 1850px) {
+    .realisation-graphique__container__texte {
+        width: 100%;
+    }
 }
 
 .realisation-graphique__container__texte h1{
@@ -39,8 +66,6 @@
     color: #000000;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 25px;
-    margin-top: 20px;
 }
 
 .realisation-graphique__container__texte h2{
@@ -49,18 +74,15 @@
     color: #000000;
     font-size: 15px;
     text-transform: uppercase;
-    margin-left: 25px;
     letter-spacing: 5px;
     
 }
 
 .realisation-graphique__container__texte p{
-    width: 90%;
+    margin: 35px 0 20px;
     font-family:'Yu Gothic';
-    color: #000000;
     font-size: 14px;
-    margin: auto;
-    margin-top: 30px;
+    color: #000000;
 }
 
 .realisation-graphique__container__texte p span{
@@ -68,6 +90,7 @@
 }
 
 .realisation-graphique__container__texte a{
+    margin: auto auto 0;
     width: 186px;
     height: 39px;
     background-color: #232323;
@@ -81,8 +104,6 @@
     display: block;
     text-align: center;
     line-height: 25px; 
-    margin: auto;
-    margin-top: 42px;
     color: #FFFFFF;
     transition: all 0.5s ease-out;
     
