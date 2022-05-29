@@ -1,7 +1,13 @@
 
+.page-wrapper-realisation-graph .page-container {
+    padding: 20px 0;
+}
+
 .modelisation3d-section{
     
-    height: calc(100vh - 70px - 52px );
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .modelisation3d-section__container{
@@ -18,6 +24,7 @@
 }
 
 
+
 .title-head{
     display: flex;
     width: 100%;
@@ -25,6 +32,16 @@
     margin: 0 auto;
     margin-top: 30px;
     
+}
+
+.title-head__text-container{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .title-head {
+        flex-direction: column;
+    }
 }
 
 .modelisation3d-section__image-container{
@@ -45,8 +62,33 @@
     margin: 0px 10px;
 }
 
+@media screen and (max-width: 1024px) {
+    .modelisation3d-section__image {
+        width: 79%;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .modelisation3d-section__image {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .modelisation3d-section__image img{
     display: block;
     width: calc(100% / 2 - 10px)
     
 }
+
+@media screen and (max-width: 767px) {
+    .modelisation3d-section__image img {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+

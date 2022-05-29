@@ -1,6 +1,28 @@
+.page-wrapper-home {
+    height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .page-wrapper-home {
+        height: inherit;
+    }
+}
+
 .a-propos {
     display: flex;
     padding-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .a-propos {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .a-propos__column {
+        flex-direction: column;
+    }
 }
 
 .a-propos__column {
@@ -10,6 +32,13 @@
 
 .a-propos__column:not(:last-of-type) {
     border-right: solid 2px #CEAD28;
+}
+
+@media screen and (max-width: 1024px) {
+    .a-propos__column:not(:last-of-type){
+        border-bottom: solid 2px #CEAD28;
+        border-right: none;
+    }
 }
 
 .a-propos__title {
@@ -25,6 +54,13 @@
     font-size: 19px;
     line-height: 25px;    
 }
+
+@media screen and (max-width: 1024px) {
+    .a-propos__column p{
+        text-align: justify;
+    }
+}
+
 
 .a-propos__column p:not(:last-of-type) {
     margin-bottom: 20px;

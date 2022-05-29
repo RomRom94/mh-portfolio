@@ -5,11 +5,36 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+    .projettitle {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projettitle {
+        font-size: 38px;
+    }
+}
+
+
 .projetsubtitle{
     font-family: 'Yu Gothic';
     font-weight: lighter;
     font-size: 40px;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .projetsubtitle {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .projetsubtitle {
+        font-size: 21px;
+    }
 }
 
 .titlebold{
